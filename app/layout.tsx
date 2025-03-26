@@ -16,6 +16,20 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Stashify",
   description: "Inventory Management for Exporters",
+  openGraph: {
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Preview Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
