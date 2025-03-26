@@ -17,18 +17,24 @@ export const metadata: Metadata = {
   title: "Stashify",
   description: "Inventory Management for Exporters",
   openGraph: {
+    title: "Stashify",
+    description: "Inventory Management for Exporters",
+    url: "https://stashify.weekendlabs.in",
+    type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://stashify.weekendlabs.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Preview Image",
+        alt: "Stashify App Screenshot",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og-image.png"],
+    title: "Stashify",
+    description: "Inventory Management for Exporters",
+    images: ["https://stashify.weekendlabs.in/og-image.png"],
   },
 };
 
